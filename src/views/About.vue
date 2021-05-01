@@ -6,8 +6,16 @@
 			<img class="icono" src="..\assets\icono.png" alt=""
 		/></router-link>
 		<h4>Vienvenido Invocador</h4>
-		<div style="height: 150px; overflow: hidden;">
-			<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+
+		<i class=" icon fab fa-github-alt"></i>
+		<i class=" icon fab fa-linkedin"></i>
+		<div class="container" style="height: 150px; overflow: hidden;">
+			<svg
+				class="svg"
+				viewBox="0 0 500 150"
+				preserveAspectRatio="none"
+				style="height: 100%; width: 100%;"
+			>
 				<path
 					d="M-0.90,149.30 C-0.90,146.34 -0.90,150.29 500.00,49.99 L500.00,150.00 L-3.15,152.26 Z"
 					style="stroke: none; fill: #D22A37;"
@@ -25,6 +33,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
 #video {
 	position: absolute;
 	left: 0;
@@ -58,5 +67,10 @@ h4 {
 	color: white;
 	font-family: "New Tegomin", serif;
 	font-size: 1rem;
+}
+.icon {
+	color: white;
+	font-size: 2rem;
+	margin: 1rem;
 }
 </style>
