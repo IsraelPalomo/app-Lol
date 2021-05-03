@@ -4,18 +4,25 @@
 			<img class="iconoNav" src="..\assets\icono.png" alt="" />
 
 			<div class="iconLOL">
-				<img src="..\assets\icon-lol.png" alt="" />
-				<img src="..\assets\icon-tft.png" alt="" />
-				<img src="..\assets\icon-lolR.png" alt="" />
+				<router-link to="/" class="linkImg">
+					<img src="..\assets\icon-lol.png" alt="" />
+				</router-link>
+				<router-link to="/inicio-TFT" class="linkImg">
+					<img src="..\assets\icon-tft.png" alt="" />
+				</router-link>
+				<router-link to="/inicio-cartas" class="linkImg">
+					<img src="..\assets\icon-lolR.png" alt="" />
+				</router-link>
 			</div>
 		</nav>
 		<div>
 			<img class="logo" src="..\assets\League_of_Legends_logo.png" alt="" />
 		</div>
-		<video id="video" loop autoplay preload muted src="..\assets\Video-Fondo.mp4"></video>
+		<video id="video" loop autoplay preload src="..\assets\Warrios.mp4"></video>
 		<router-link to="/home" class="linkImg">
 			<img class="icono" src="..\assets\icon-puño.png" alt="" />
 			<button class="btn-puño">Vienvenido Invocador</button>
+			<img class="pingui" src="..\assets\pingui.png" alt="" />
 		</router-link>
 		<h4>Redes sociales creador</h4>
 
@@ -40,6 +47,10 @@
 export default {};
 </script>
 <style>
+.pingui {
+	width: 15rem;
+	margin-left: 5rem;
+}
 nav {
 	position: absolute;
 	width: 100%;
@@ -47,14 +58,23 @@ nav {
 	z-index: 10;
 	background: #000000;
 	top: 0px;
-	color: white;
+	color: rgb(8, 8, 8);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .iconLOL {
-	margin-right: 1.5rem;
+	display: flex;
+
+	justify-content: right;
+	margin: 5rem 1.5rem 5rem auto;
+	height: 160px;
+	align-items: center;
+}
+nav {
+	display: flex;
+	justify-content: right;
 }
 nav h4 {
 	font-size: 2rem;
@@ -136,6 +156,7 @@ h4 {
 	font-size: 2rem;
 	margin: 1rem;
 }
+
 @media (min-width: 700px) {
 	.logo {
 		width: 35rem;
@@ -146,7 +167,11 @@ h4 {
 		margin-top: 3rem;
 	}
 }
+
 @media (max-width: 700px) {
+	.pingui {
+		display: none;
+	}
 	.iconoNav {
 		display: none;
 	}
@@ -156,7 +181,7 @@ h4 {
 		margin: 2rem auto 5rem auto;
 	}
 	.logo {
-		margin-top: 12rem;
+		margin-top: 13rem;
 	}
 	#video {
 		margin-top: 7rem;
@@ -177,11 +202,11 @@ h4 {
 @media (min-width: 900px) {
 	.logo {
 		width: 40rem;
-		margin-top: 25rem;
+		margin-top: 30rem;
 	}
 	.icono {
 		width: 30rem;
-		margin-top: 6rem;
+		margin-top: 15rem;
 	}
 	.btn-puño {
 		text-align: center;
@@ -192,7 +217,7 @@ h4 {
 	.logo {
 		width: 40rem;
 		max-width: 50rem;
-		margin-top: 35rem;
+		margin-top: 45rem;
 	}
 	.icono {
 		width: 35rem;
@@ -202,7 +227,7 @@ h4 {
 @media (min-width: 2000px) {
 	.logo {
 		width: 100rem;
-		margin-top: 65rem;
+		margin-top: 75rem;
 	}
 	.icono {
 		width: 65rem;
