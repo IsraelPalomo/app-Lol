@@ -19,7 +19,7 @@
 			<img class="logo" src="..\assets\League_of_Legends_logo.png" alt="" />
 		</div>
 		<video id="video" loop autoplay preload src="..\assets\Warrios.mp4"></video>
-		<router-link to="/home" class="linkImg">
+		<router-link to="/Pagina-Lol" class="linkImg">
 			<img class="icono" src="..\assets\icon-puño.png" alt="" />
 			<button class="btn-puño">Vienvenido Invocador</button>
 			<img class="pingui" src="..\assets\pingui.png" alt="" />
