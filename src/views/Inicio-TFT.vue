@@ -16,7 +16,7 @@
 			</div>
 		</nav>
 		<div>
-			<img class="logo" src="..\assets\Teamfight_Tactics_logo.png" alt="" />
+			<img class="logo" src="..\assets\Logotipo__TeamfightTactics.png" alt="" />
 		</div>
 		<video id="video" loop autoplay preload src="..\assets\videotft.mp4"></video>
 		<router-link to="/home" class="linkImg">

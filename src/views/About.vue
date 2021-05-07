@@ -16,7 +16,7 @@
 			</div>
 		</nav>
 		<div>
-			<img class="logo" src="..\assets\League_of_Legends_logo.png" alt="" />
+			<img class="logo" src="..\assets\Logotipo__LeagueOfLegends.png" alt="" />
 		</div>
 		<video id="video" loop autoplay preload src="..\assets\Warrios.mp4"></video>
 		<router-link to="/Pagina-Lol" class="linkImg">

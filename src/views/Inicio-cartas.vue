@@ -16,7 +16,7 @@
 			</div>
 		</nav>
 		<div>
-			<img class="logo" src="..\assets\Logo-No_Tag_No-Faction-ENG-RGB.png" alt="" />
+			<img class="logo" src="..\assets\Logotipo__LeagueOfRunaterra.png" alt="" />
 		</div>
 		<video id="video" loop autoplay preload src="..\assets\videoCartas.mp4"></video>
 		<router-link to="/home" class="linkImg">
