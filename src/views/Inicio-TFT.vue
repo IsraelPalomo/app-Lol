@@ -5,13 +5,13 @@
 
 			<div class="iconLOL">
 				<router-link to="/" class="linkImg">
-					<img src="..\assets\icon-lol.png" alt="" />
+					<img src="..\assets\Icono__LeagueOfLegends.png" alt="" />
 				</router-link>
 				<router-link to="/inicio-TFT" class="linkImg">
-					<img src="..\assets\icon-tft.png" alt="" />
+					<img src="..\assets\Icono__TeamfightTactics.png" alt="" />
 				</router-link>
 				<router-link to="/inicio-cartas" class="linkImg">
-					<img src="..\assets\icon-lolR.png" alt="" />
+					<img src="..\assets\Icono__LeagueOfRunaterra.png" alt="" />
 				</router-link>
 			</div>
 		</nav>
@@ -20,9 +20,9 @@
 		</div>
 		<video id="video" loop autoplay preload src="..\assets\videotft.mp4"></video>
 		<router-link to="/home" class="linkImg">
-			<img class="icono" src="..\assets\icon-puño.png" alt="" />
+			<img class="icono" src="..\assets\Icono__PuñoRiot.png" alt="Icono__PuñoRiot" />
 			<button class="btn-puño">Vienvenido Invocador</button>
-			<img class="pingui" src="..\assets\pingui.png" alt="" />
+			<img class="pingui" src="..\assets\Icono__PinguinoTFT.png" alt="Icono__PinguinoTFT" />
 		</router-link>
 
 		<h4>Redes sociales creador</h4>

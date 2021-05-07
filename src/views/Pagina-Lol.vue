@@ -21,14 +21,12 @@
 export default {};
 </script>
 
-<style>
+<style lang="scss">
 body {
 	background: rgb(45, 45, 46);
 	margin: 0;
 	padding: 0;
 }
-
-//! Header
 
 header {
 	height: 10rem;
@@ -43,7 +41,6 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 1rem;
-	background-color: rgb(101, 101, 102);
 }
 .titulo {
 	color: #d22a37;
@@ -59,8 +56,6 @@ header {
 	width: 24rem;
 	filter: drop-shadow(15px 15px 20px black);
 }
-
-//! MAIN
 
 main {
 	margin: 0;
