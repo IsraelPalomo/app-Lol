@@ -1,13 +1,13 @@
 <template>
 	<div class="contenedor__header">
-		<img class="img__header" src="..\assets\Akali.png" alt="Imagen Akali" />
+		<img class="img__header" src="..\assets\Imagen__Header--Akali.png" alt="Imagen Akali" />
 		<header>
 			<h1 class="titulo">Elije Tu Faccion</h1>
 		</header>
-		<img class="img__header" src="..\assets\Yasuo.png" alt="Imagen Yasuo" />
+		<img class="img__header" src="..\assets\Imagen__Header--Yasuo.png" alt="Imagen Yasuo" />
 	</div>
 	<main>
-		<img class="img__SVG" src="..\assets\SVG.png" alt="SVG__imagen" />
+		<img class="img__SVG" src="..\assets\Decoracion__Svg.png" alt="SVG__imagen" />
 
 		<section class=" seccion seccion__magos"></section>
 		<section class=" seccion seccion__magos"></section>

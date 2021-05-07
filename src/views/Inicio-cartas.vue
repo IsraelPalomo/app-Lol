@@ -1,7 +1,7 @@
 <template>
 	<div class="about">
 		<nav>
-			<img class="iconoNav" src="..\assets\icono.png" alt="" />
+			<img class="iconoNav" src="..\assets\Logotipo__RiotGames.png" alt="Logotipo De Riot Games" />
 
 			<div class="iconLOL">
 				<router-link to="/" class="linkImg">
