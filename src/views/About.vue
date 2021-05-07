@@ -18,7 +18,7 @@
 		<div>
 			<img class="logo" src="..\assets\Logotipo__LeagueOfLegends.png" alt="" />
 		</div>
-		<video id="video" loop autoplay preload src="..\assets\Warrios.mp4"></video>
+		<video id="video" loop autoplay preload src="..\assets\Video__LeagueOfLegends.mp4"></video>
 		<router-link to="/Pagina-Lol" class="linkImg">
 			<img class="icono" src="..\assets\Icono__PuñoRiot.png" alt="Icono__PuñoRiot" />
 			<button class="btn-puño">Vienvenido Invocador</button>

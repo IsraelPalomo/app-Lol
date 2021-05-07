@@ -18,7 +18,7 @@
 		<div>
 			<img class="logo" src="..\assets\Logotipo__LeagueOfRunaterra.png" alt="" />
 		</div>
-		<video id="video" loop autoplay preload src="..\assets\videoCartas.mp4"></video>
+		<video id="video" loop autoplay preload src="..\assets\Video__LeagueOfRunaterra.mp4"></video>
 		<router-link to="/home" class="linkImg">
 			<img class="icono" src="..\assets\Icono__PuñoRiot.png" alt="Icono__PuñoRiot" />
 			<button class="btn-puño">Vienvenido Invocador</button>
