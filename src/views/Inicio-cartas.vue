@@ -1,20 +1,6 @@
 <template>
 	<div class="about">
-		<nav>
-			<img class="iconoNav" src="..\assets\Logotipo__RiotGames.png" alt="Logotipo De Riot Games" />
-
-			<div class="iconLOL">
-				<router-link to="/" class="linkImg">
-					<img src="..\assets\Icono__LeagueOfLegends.png" alt="" />
-				</router-link>
-				<router-link to="/inicio-TFT" class="linkImg">
-					<img src="..\assets\Icono__TeamfightTactics.png" alt="" />
-				</router-link>
-				<router-link to="/inicio-cartas" class="linkImg">
-					<img src="..\assets\Icono__LeagueOfRunaterra.png" alt="" />
-				</router-link>
-			</div>
-		</nav>
+		<Nav />
 		<div>
 			<img class="logo" src="..\assets\Logotipo__LeagueOfRunaterra.png" alt="" />
 		</div>
@@ -44,7 +30,10 @@
 	</div>
 </template>
 <script>
-export default {};
+import Nav from "../components/Nav";
+export default {
+	components: { Nav },
+};
 </script>
 <style>
 .pingui {
