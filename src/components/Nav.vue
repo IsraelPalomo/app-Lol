@@ -7,13 +7,25 @@
 		/>
 		<div class="iconosJuegos">
 			<router-link to="/" class="iconosJuegos__icono">
-				<img src="..\assets\Icono__LeagueOfLegends.png" alt="icono league of legends" />
+				<img
+					class="icono"
+					src="..\assets\Icono__LeagueOfLegends.png"
+					alt="icono league of legends"
+				/>
 			</router-link>
 			<router-link to="/inicio-TFT" class="iconosJuegos__icono">
-				<img src="..\assets\Icono__TeamfightTactics.png" alt="icono teamfight tactics" />
+				<img
+					class="icono"
+					src="..\assets\Icono__TeamfightTactics.png"
+					alt="icono teamfight tactics"
+				/>
 			</router-link>
 			<router-link to="/inicio-cartas" class="iconosJuegos__icono">
-				<img src="..\assets\Icono__LeagueOfRunaterra.png" alt="icono league of runaterra" />
+				<img
+					class="icono"
+					src="..\assets\Icono__LeagueOfRunaterra.png"
+					alt="icono league of runaterra"
+				/>
 			</router-link>
 		</div>
 	</nav>
@@ -25,33 +37,23 @@ export default {};
 
 <style lang="scss" scoped>
 nav {
-	position: absolute;
 	width: 100%;
-	height: 150px;
-	z-index: 10;
-	background: #000000;
-	top: 0px;
-	color: rgb(8, 8, 8);
+	height: 5rem;
+	background: rgb(34, 34, 34);
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+
 	.logotipo__riotGames {
-		width: 20rem;
-		height: 10rem;
+		width: 9rem;
+		height: 5rem;
 	}
 	.iconosJuegos {
-		display: flex;
-		justify-content: right;
-		margin: 5rem 1.5rem 5rem auto;
-		height: 160px;
-		align-items: center;
 		.iconosJuegos__icono {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			text-decoration: none;
-			margin-top: 15rem;
-			margin-bottom: 15rem;
+			.icono {
+				width: 4rem;
+				height: 4rem;
+				margin-top: 0.5rem;
+			}
 		}
 	}
 }
@@ -67,8 +69,30 @@ nav {
 		}
 		.iconosJuegos {
 			width: 100%;
-			margin-right: 0;
 			justify-content: center;
+			align-items: center;
+			.iconosJuegos__icono {
+				.icono {
+					gap: 2rem;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 1200px) {
+	nav {
+		height: 7rem;
+		.logotipo__riotGames {
+			width: 12rem;
+			height: 7rem;
+		}
+		.iconosJuegos {
+			.iconosJuegos__icono {
+				.icono {
+					width: 6rem;
+					height: 6rem;
+				}
+			}
 		}
 	}
 }
