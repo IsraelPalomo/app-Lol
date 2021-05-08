@@ -5,6 +5,7 @@
 			src="..\assets\Logotipo__RiotGames.png"
 			alt="Logotipo De Riot Games"
 		/>
+
 		<div class="iconosJuegos">
 			<router-link to="/" class="iconosJuegos__icono">
 				<img
@@ -38,21 +39,22 @@ export default {};
 <style lang="scss" scoped>
 nav {
 	width: 100%;
-	height: 5rem;
+	height: 7rem;
 	background: rgb(34, 34, 34);
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 
 	.logotipo__riotGames {
 		width: 9rem;
 		height: 5rem;
 	}
 	.iconosJuegos {
+		margin-right: 1rem;
 		.iconosJuegos__icono {
 			.icono {
 				width: 4rem;
 				height: 4rem;
-				margin-top: 0.5rem;
 			}
 		}
 	}
@@ -71,6 +73,7 @@ nav {
 			width: 100%;
 			justify-content: center;
 			align-items: center;
+			margin-right: 0;
 			.iconosJuegos__icono {
 				.icono {
 					gap: 2rem;
@@ -81,18 +84,9 @@ nav {
 }
 @media (min-width: 1200px) {
 	nav {
-		height: 7rem;
 		.logotipo__riotGames {
 			width: 12rem;
 			height: 7rem;
-		}
-		.iconosJuegos {
-			.iconosJuegos__icono {
-				.icono {
-					width: 6rem;
-					height: 6rem;
-				}
-			}
 		}
 	}
 }

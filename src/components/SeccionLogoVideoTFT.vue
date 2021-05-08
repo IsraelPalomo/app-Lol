@@ -4,11 +4,11 @@
 		loop
 		autoplay
 		preload
-		src="..\assets\Video__LeagueOfLegends.mp4"
+		src="..\assets\Video__TeamfightTatics.mp4"
 	></video>
 	<img
 		class="logotipo"
-		src="..\assets\Logotipo__LeagueOfLegends.png"
+		src="..\assets\Logotipo__TeamfightTactics.png"
 		alt="Logotipo League Of Legends"
 	/>
 </template>

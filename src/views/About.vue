@@ -10,4 +10,4 @@ export default {
 	components: { Nav, SeccionLogoVideo },
 };
 </script>
-<style></style>
+<style lang="scss"></style>

@@ -4,11 +4,11 @@
 		loop
 		autoplay
 		preload
-		src="..\assets\Video__LeagueOfLegends.mp4"
+		src="..\assets\Video__LeagueOfRunaterra.mp4"
 	></video>
 	<img
 		class="logotipo"
-		src="..\assets\Logotipo__LeagueOfLegends.png"
+		src="..\assets\Logotipo__LeagueOfRunaterra.png"
 		alt="Logotipo League Of Legends"
 	/>
 </template>
@@ -29,8 +29,8 @@ export default {};
 	margin-top: 6.5rem;
 }
 .logotipo {
-	width: 15rem;
-	margin-top: 50%;
+	width: 20rem;
+	margin-top: 30%;
 }
 
 /** 
@@ -39,24 +39,25 @@ export default {};
 
 @media (min-width: 400px) {
 	.logotipo {
-		width: 20rem;
+		width: 25rem;
 	}
 }
 @media (min-width: 650px) {
 	.logotipo {
-		width: 25rem;
+		width: 30rem;
+		margin-top: 40%;
 	}
 }
 @media (min-width: 900px) {
 	.logotipo {
-		width: 30rem;
-		margin-top: 53%;
+		width: 35rem;
+		margin-top: 43%;
 	}
 }
 @media (min-width: 1200px) {
 	.logotipo {
-		width: 35rem;
-		margin-top: 53%;
+		width: 45rem;
+		margin-top: 45%;
 	}
 }
 
