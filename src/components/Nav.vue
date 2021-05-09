@@ -1,10 +1,12 @@
 <template>
 	<nav>
-		<img
-			class="logotipo__riotGames"
-			src="..\assets\Logotipo__RiotGames.png"
-			alt="Logotipo De Riot Games"
-		/>
+		<div class="logotipoAnimacion">
+			<img
+				class="logotipo__riotGames"
+				src="..\assets\Logotipo__RiotGames.png"
+				alt="Logotipo De Riot Games"
+			/>
+		</div>
 
 		<div class="iconosJuegos">
 			<router-link to="/" class="iconosJuegos__icono">
@@ -44,11 +46,26 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
+	&:hover {
+		.logotipo__riotGames {
+			animation: none;
+		}
+		.gifHeader {
+			display: none;
+		}
+	}
+	.logotipoAnimacion {
+		display: flex;
+		align-items: center;
+	}
+	.gifHeader {
+		width: 8rem;
+	}
 	.logotipo__riotGames {
 		width: 9rem;
 		height: 5rem;
 	}
+
 	.iconosJuegos {
 		margin-right: 1rem;
 		.iconosJuegos__icono {
@@ -60,12 +77,15 @@ nav {
 	}
 }
 
-/** 
+/**
 * TODO:  ---------------------------------------------------------MEDIA QUERYS--------------------------------------------------
 */
 
 @media (max-width: 700px) {
 	nav {
+		.gifHeader {
+			display: none;
+		}
 		.logotipo__riotGames {
 			display: none;
 		}
@@ -82,6 +102,7 @@ nav {
 		}
 	}
 }
+
 @media (min-width: 1200px) {
 	nav {
 		.logotipo__riotGames {
@@ -91,7 +112,7 @@ nav {
 	}
 }
 
-/** 
+/**
 * TODO:  ---------------------------------------------------------MEDIA QUERYS--------------------------------------------------
 */
 </style>

@@ -1,8 +1,9 @@
 <template>
-	<div class="btn">
+	<router-link to="/pagina-Lol" class="btn">
 		<img class="btn__icono" src="..\assets\Icono__PuñoRiot.png" alt="Icono Puño" />
 		<button class="btn__boton">Vienvenido Invocador</button>
-	</div>
+	</router-link>
+
 	<div class="redesSociales">
 		<h1 class="redesSociales__titulo">Redes Sociales</h1>
 		<div class="containerIconos">
@@ -30,9 +31,12 @@ export default {};
 	align-items: center;
 	width: 50%;
 	margin: 5rem auto;
+	text-decoration: none;
 
 	&:hover {
-		transform: scale(1.1);
+		transform: scale(1.2);
+		filter: drop-shadow(15px 15px 15px #ed2331);
+		transition: linear 0.3s;
 	}
 	.btn__icono {
 		width: 5rem;
@@ -48,6 +52,8 @@ export default {};
 		font-family: "Newsreader", serif;
 		font-weight: bold;
 		line-height: 1rem;
+		border-bottom: solid 4px black;
+		border-radius: 0 0 0 15px;
 	}
 }
 .redesSociales {
