@@ -21,7 +21,7 @@
 					alt="icono teamfight tactics"
 				/>
 			</router-link>
-			<router-link to="/inicio-cartas" class="iconosJuegos__icono">
+			<router-link to="/inicio-LOR" class="iconosJuegos__icono">
 				<img
 					class="icono"
 					src="..\assets\Icono__LeagueOfRunaterra.png"

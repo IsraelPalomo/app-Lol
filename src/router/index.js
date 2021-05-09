@@ -1,19 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
 
 const routes = [
 	{
-		path: "/home",
-		name: "Home",
-		component: Home,
-	},
-	{
 		path: "/",
-		name: "About",
+		name: "Inicio-LOL",
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "about" */ "../views/About.vue"),
+		component: () => import(/* webpackChunkName: "about" */ "../views/Inicio-LOL.vue"),
 	},
 	{
 		path: "/inicio-TFT",
@@ -24,12 +18,12 @@ const routes = [
 		component: () => import(/* webpackChunkName: "about" */ "../views/Inicio-TFT.vue"),
 	},
 	{
-		path: "/inicio-cartas",
-		name: "inicio-cartas",
+		path: "/inicio-LOR",
+		name: "Inicio-LOR",
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "about" */ "../views/Inicio-cartas.vue"),
+		component: () => import(/* webpackChunkName: "about" */ "../views/Inicio-LOR.vue"),
 	},
 	{
 		path: "/pagina-Lol",
