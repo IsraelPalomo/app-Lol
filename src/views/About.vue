@@ -1,6 +1,6 @@
 <template>
 	<Nav />
-	<SeccionLogoVideo />
+	<SeccionLogoVideo numeroPaginas="1" />
 </template>
 <script>
 import Nav from "../components/Nav";

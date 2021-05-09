@@ -1,12 +1,12 @@
 <template>
 	<Nav />
-	<SeccionLogoVideoTFT />
+	<SeccionLogoVideo numeroPaginas="3" />
 </template>
 <script>
 import Nav from "../components/Nav";
-import SeccionLogoVideoTFT from "../components/SeccionLogoVideoTFT";
+import SeccionLogoVideo from "../components/SeccionLogoVideo";
 export default {
-	components: { Nav, SeccionLogoVideoTFT },
+	components: { Nav, SeccionLogoVideo },
 };
 </script>
 <style></style>

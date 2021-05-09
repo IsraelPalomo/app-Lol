@@ -1,12 +1,12 @@
 <template>
 	<Nav />
-	<SeccionLogoVideoLOR />
+	<SeccionLogoVideo numeroPaginas="2" />
 </template>
 <script>
 import Nav from "../components/Nav";
-import SeccionLogoVideoLOR from "../components/SeccionLogoVideoLOR";
+import SeccionLogoVideo from "../components/SeccionLogoVideo";
 export default {
-	components: { Nav, SeccionLogoVideoLOR },
+	components: { Nav, SeccionLogoVideo },
 };
 </script>
 <style></style>

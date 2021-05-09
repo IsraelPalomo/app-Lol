@@ -1,20 +1,55 @@
 <template>
 	<video
+		v-if="numeroPaginas === '1'"
 		class="videoFondo__LeagueOfLegends"
 		loop
 		autoplay
 		preload
 		src="..\assets\Video__LeagueOfLegends.mp4"
 	></video>
+	<video
+		v-if="numeroPaginas === '2'"
+		class="videoFondo__LeagueOfLegends"
+		loop
+		autoplay
+		preload
+		src="..\assets\Video__LeagueOfRunaterra.mp4"
+	></video>
+	<video
+		v-if="numeroPaginas === '3'"
+		class="videoFondo__LeagueOfLegends"
+		loop
+		autoplay
+		preload
+		src="..\assets\Video__TeamfightTatics.mp4"
+	></video>
 	<img
+		v-if="numeroPaginas == '1'"
 		class="logotipo"
 		src="..\assets\Logotipo__LeagueOfLegends.png"
+		alt="Logotipo League Of Legends"
+	/>
+	<img
+		v-if="numeroPaginas == '2'"
+		class="logotipo"
+		src="..\assets\Logotipo__LeagueOfRunaterra.png"
+		alt="Logotipo League Of Legends"
+	/>
+	<img
+		v-if="numeroPaginas == '3'"
+		class="logotipo"
+		src="..\assets\Logotipo__TeamfightTactics.png"
 		alt="Logotipo League Of Legends"
 	/>
 </template>
 
 <script>
-export default {};
+export default {
+	data() {
+		return {};
+	},
+	props: ["numeroPaginas"],
+};
 </script>
 
 <style lang="scss" scoped>
@@ -30,7 +65,7 @@ export default {};
 }
 .logotipo {
 	width: 15rem;
-	margin-top: 50%;
+	margin-top: 45%;
 }
 
 /** 
@@ -50,12 +85,18 @@ export default {};
 @media (min-width: 900px) {
 	.logotipo {
 		width: 30rem;
-		margin-top: 53%;
+		margin-top: 50%;
 	}
 }
 @media (min-width: 1200px) {
 	.logotipo {
 		width: 35rem;
+		margin-top: 53%;
+	}
+}
+@media (min-width: 2000px) {
+	.logotipo {
+		width: 50rem;
 		margin-top: 53%;
 	}
 }
