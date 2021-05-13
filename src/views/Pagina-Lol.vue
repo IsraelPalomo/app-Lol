@@ -83,10 +83,6 @@ body {
 @media (max-width: 650px) {
 	.contenedor {
 		justify-content: center;
-		.contenedor__header {
-			.titulo {
-			}
-		}
 	}
 }
 @media (max-width: 450px) {
