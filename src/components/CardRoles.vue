@@ -54,7 +54,7 @@
 			/>
 			<h1>Luchador</h1>
 		</div>
-		<div class="cardRoles__derecha">
+		<div class="cardRoles__derecha ">
 			<p class="parrafo">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
 				veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam quia,
@@ -73,7 +73,7 @@
 			<h1>Soporte</h1>
 		</div>
 		<div class="cardRoles__derecha">
-			<p class="parrafo">
+			<p class="parrafo ">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
 				veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam quia,
 				qui optio molestiae eius.
@@ -121,6 +121,10 @@ export default {};
 
 	&:hover {
 		filter: grayscale(0);
+		transform: scale(1.1);
+
+		transition-duration: 1s;
+		transition-timing-function: linear;
 	}
 	.cardRoles__izquierda {
 		display: flex;
@@ -156,37 +160,98 @@ export default {};
 	background-image: url("../assets/Seccion-Roles-Malzahar.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-position-y: top;
 }
 .asesinos {
 	background-image: url("../assets/Seccion-Roles-asesinos.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: center;
+	background-position: center;
 }
 
 .adc {
 	background-image: url("../assets/Seccion-Roles-adc.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: center;
+	background-position: center;
 }
+
 .luchadores {
 	background-image: url("../assets/Seccion-Roles-luchadores.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: center;
+	background-position: center;
 }
 .soportes {
 	background-image: url("../assets/Seccion-Roles-soportes.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: center;
+	background-position: center;
 }
 .tanques {
 	background-image: url("../assets/Seccion-Roles-tanques.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-position-y: top;
+}
+
+@media (max-width: 900px) {
+	.parrafo {
+		display: none;
+	}
+}
+@media (max-width: 650px) {
+	.magos {
+		background-position-x: right;
+		h1 {
+			margin: 0;
+		}
+	}
+	.asesinos {
+		background-position-x: -100px;
+	}
+	.adc {
+		background-position-x: center;
+	}
+	.luchadores {
+		background-position-x: right;
+	}
+	.soportes {
+		background-position-x: right;
+	}
+	.tanques {
+		background-position-x: -150px;
+	}
+	.cardRoles {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.cardRoles__izquierda {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+
+			.icono_magos {
+				margin: 2rem 6rem;
+			}
+		}
+		.cardRoles__derecha {
+			display: none;
+		}
+	}
+}
+@media (max-width: 400px) {
+	.luchadores {
+		background-position-x: -400px;
+	}
+	.soportes {
+		background-position-x: -250px;
+	}
+	.tanques {
+		background-position-x: -200px;
+	}
 }
 </style>

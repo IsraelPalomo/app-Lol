@@ -1,4 +1,5 @@
 <template>
+	<Nav />
 	<div class="contenedor">
 		<img class="contenedor__img" src="..\assets\Imagen__Header--Akali.png" alt="Imagen Akali" />
 		<header class="contenedor__header">
@@ -13,9 +14,12 @@
 
 <script>
 import CardRoles from "../components/CardRoles";
+
+import Nav from "../components/Nav";
 export default {
 	components: {
 		CardRoles,
+		Nav,
 	},
 };
 </script>
@@ -44,15 +48,61 @@ body {
 		align-content: center;
 		justify-content: center;
 		.titulo {
-			color: #d22a37;
+			color: black;
 			display: block;
 			text-align: center;
 			margin: auto auto;
 			font-family: serif;
-			font-size: 5rem;
+			font-size: 3rem;
 			margin: 5rem;
 			text-shadow: 10px 10px 15px black;
+			text-align: center;
+			background: #d22a37;
+			padding-bottom: 6rem;
+			padding-top: 2rem;
+			padding-right: 2rem;
+			padding-left: 2rem;
+			border-radius: 15px;
 		}
 	}
 }
+
+/** 
+* TODO:  ---------------------------------------------------------MEDIA QUERYS--------------------------------------------------
+*/
+
+@media (max-width: 2000px) {
+}
+@media (max-width: 1200px) {
+	.contenedor__img {
+		display: none;
+	}
+}
+@media (max-width: 900px) {
+}
+@media (max-width: 650px) {
+	.contenedor {
+		justify-content: center;
+		.contenedor__header {
+			.titulo {
+			}
+		}
+	}
+}
+@media (max-width: 450px) {
+	.contenedor {
+		.contenedor__header {
+			margin: 0;
+			.titulo {
+				font-size: 2rem;
+				padding: 1rem;
+				margin: 80px 0 0 0;
+			}
+		}
+	}
+}
+
+/** 
+* TODO:  ---------------------------------------------------------MEDIA QUERYS--------------------------------------------------
+*/
 </style>
