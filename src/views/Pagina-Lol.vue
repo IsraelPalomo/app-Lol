@@ -10,16 +10,18 @@
 	<main>
 		<CardRoles />
 	</main>
+	<Footer />
 </template>
 
 <script>
 import CardRoles from "../components/CardRoles";
-
+import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 export default {
 	components: {
 		CardRoles,
 		Nav,
+		Footer,
 	},
 };
 </script>
