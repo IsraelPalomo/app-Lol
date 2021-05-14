@@ -1,5 +1,5 @@
 <template>
-	<router-link to="/" class="enlace">
+	<router-link to="/Campeones" class="enlace">
 		<div class="cardRoles magos">
 			<div class="cardRoles__izquierda">
 				<img class="cardRoles__icono icono_magos" src="..\assets\Rol-Magos.png" alt="Rol Magos" />
@@ -14,7 +14,7 @@
 			</div>
 		</div>
 	</router-link>
-	<router-link to="/" class="enlace">
+	<router-link to="/Campeones" class="enlace">
 		<div class="cardRoles asesinos">
 			<div class="cardRoles__izquierda">
 				<img
@@ -33,7 +33,7 @@
 			</div>
 		</div>
 	</router-link>
-	<router-link to="/" class="enlace">
+	<router-link to="/Campeones" class="enlace">
 		<div class="cardRoles adc">
 			<div class="cardRoles__izquierda">
 				<img class="cardRoles__icono icono_magos" src="..\assets\Rol-Adc.png" alt="Rol Asesinos" />
@@ -48,7 +48,7 @@
 			</div>
 		</div>
 	</router-link>
-	<router-link to="/" class="enlace">
+	<router-link to="/Campeones" class="enlace">
 		<div class="cardRoles luchadores">
 			<div class="cardRoles__izquierda">
 				<img
@@ -67,7 +67,7 @@
 			</div>
 		</div>
 	</router-link>
-	<router-link to="/" class="enlace">
+	<router-link to="/Campeones" class="enlace">
 		<div class="cardRoles soportes">
 			<div class="cardRoles__izquierda">
 				<img
@@ -86,7 +86,7 @@
 			</div>
 		</div>
 	</router-link>
-	<router-link to="/" class="enlace">
+	<router-link to="/Campeones" class="enlace">
 		<div class="cardRoles tanques">
 			<div class="cardRoles__izquierda">
 				<img
