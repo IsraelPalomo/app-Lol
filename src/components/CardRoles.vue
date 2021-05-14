@@ -1,102 +1,110 @@
 <template>
-	<div class="cardRoles magos">
-		<div class="cardRoles__izquierda">
-			<img class="cardRoles__icono icono_magos" src="..\assets\Rol-Magos.png" alt="Rol Magos" />
-			<h1>Mago</h1>
+	<router-link to="/" class="enlace">
+		<div class="cardRoles magos">
+			<div class="cardRoles__izquierda">
+				<img class="cardRoles__icono icono_magos" src="..\assets\Rol-Magos.png" alt="Rol Magos" />
+				<h1>Mago</h1>
+			</div>
+			<div class="cardRoles__derecha">
+				<p class="parrafo">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
+					veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam
+					quia, qui optio molestiae eius.
+				</p>
+			</div>
 		</div>
-		<div class="cardRoles__derecha">
-			<p class="parrafo">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
-				veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam quia,
-				qui optio molestiae eius.
-			</p>
+	</router-link>
+	<router-link to="/" class="enlace">
+		<div class="cardRoles asesinos">
+			<div class="cardRoles__izquierda">
+				<img
+					class="cardRoles__icono icono_magos"
+					src="..\assets\Rol-Asesinos.png"
+					alt="Rol Asesinos"
+				/>
+				<h1>Asesino</h1>
+			</div>
+			<div class="cardRoles__derecha">
+				<p class="parrafo">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
+					veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam
+					quia, qui optio molestiae eius.
+				</p>
+			</div>
 		</div>
-	</div>
-
-	<div class="cardRoles asesinos">
-		<div class="cardRoles__izquierda">
-			<img
-				class="cardRoles__icono icono_magos"
-				src="..\assets\Rol-Asesinos.png"
-				alt="Rol Asesinos"
-			/>
-			<h1>Asesino</h1>
+	</router-link>
+	<router-link to="/" class="enlace">
+		<div class="cardRoles adc">
+			<div class="cardRoles__izquierda">
+				<img class="cardRoles__icono icono_magos" src="..\assets\Rol-Adc.png" alt="Rol Asesinos" />
+				<h1>Tirador</h1>
+			</div>
+			<div class="cardRoles__derecha">
+				<p class="parrafo">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
+					veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam
+					quia, qui optio molestiae eius.
+				</p>
+			</div>
 		</div>
-		<div class="cardRoles__derecha">
-			<p class="parrafo">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
-				veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam quia,
-				qui optio molestiae eius.
-			</p>
+	</router-link>
+	<router-link to="/" class="enlace">
+		<div class="cardRoles luchadores">
+			<div class="cardRoles__izquierda">
+				<img
+					class="cardRoles__icono icono_magos"
+					src="..\assets\Rol-luchadores.png"
+					alt="Rol Asesinos"
+				/>
+				<h1>Luchador</h1>
+			</div>
+			<div class="cardRoles__derecha ">
+				<p class="parrafo">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
+					veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam
+					quia, qui optio molestiae eius.
+				</p>
+			</div>
 		</div>
-	</div>
-
-	<div class="cardRoles adc">
-		<div class="cardRoles__izquierda">
-			<img class="cardRoles__icono icono_magos" src="..\assets\Rol-Adc.png" alt="Rol Asesinos" />
-			<h1>Tirador</h1>
+	</router-link>
+	<router-link to="/" class="enlace">
+		<div class="cardRoles soportes">
+			<div class="cardRoles__izquierda">
+				<img
+					class="cardRoles__icono icono_magos"
+					src="..\assets\Rol-soportes.png"
+					alt="Rol Asesinos"
+				/>
+				<h1>Soporte</h1>
+			</div>
+			<div class="cardRoles__derecha">
+				<p class="parrafo ">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
+					veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam
+					quia, qui optio molestiae eius.
+				</p>
+			</div>
 		</div>
-		<div class="cardRoles__derecha">
-			<p class="parrafo">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
-				veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam quia,
-				qui optio molestiae eius.
-			</p>
+	</router-link>
+	<router-link to="/" class="enlace">
+		<div class="cardRoles tanques">
+			<div class="cardRoles__izquierda">
+				<img
+					class="cardRoles__icono icono_magos"
+					src="..\assets\Rol-Tanques.png"
+					alt="Rol Asesinos"
+				/>
+				<h1>Tanque</h1>
+			</div>
+			<div class="cardRoles__derecha">
+				<p class="parrafo">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
+					veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam
+					quia, qui optio molestiae eius.
+				</p>
+			</div>
 		</div>
-	</div>
-
-	<div class="cardRoles luchadores">
-		<div class="cardRoles__izquierda">
-			<img
-				class="cardRoles__icono icono_magos"
-				src="..\assets\Rol-luchadores.png"
-				alt="Rol Asesinos"
-			/>
-			<h1>Luchador</h1>
-		</div>
-		<div class="cardRoles__derecha ">
-			<p class="parrafo">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
-				veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam quia,
-				qui optio molestiae eius.
-			</p>
-		</div>
-	</div>
-
-	<div class="cardRoles soportes">
-		<div class="cardRoles__izquierda">
-			<img
-				class="cardRoles__icono icono_magos"
-				src="..\assets\Rol-soportes.png"
-				alt="Rol Asesinos"
-			/>
-			<h1>Soporte</h1>
-		</div>
-		<div class="cardRoles__derecha">
-			<p class="parrafo ">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
-				veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam quia,
-				qui optio molestiae eius.
-			</p>
-		</div>
-	</div>
-	<div class="cardRoles tanques">
-		<div class="cardRoles__izquierda">
-			<img
-				class="cardRoles__icono icono_magos"
-				src="..\assets\Rol-Tanques.png"
-				alt="Rol Asesinos"
-			/>
-			<h1>Tanque</h1>
-		</div>
-		<div class="cardRoles__derecha">
-			<p class="parrafo">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, et. Minima tempora
-				veritatis ex quis deserunt dolores sit est laborum cum libero accusamus, soluta veniam quia,
-				qui optio molestiae eius.
-			</p>
-		</div>
-	</div>
+	</router-link>
 </template>
 
 <script>
@@ -104,6 +112,9 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+.enlace {
+	text-decoration: none;
+}
 .cardRoles {
 	background-color: rgb(101, 101, 102);
 	width: 80%;
