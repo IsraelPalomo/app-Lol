@@ -1,9 +1,16 @@
 <template>
-	<h1>Campeones lol</h1>
+	<Nav />
+	<main>
+		<CardCampeones />
+	</main>
 </template>
 
 <script>
-export default {};
+import Nav from "../components/Nav";
+import CardCampeones from "../components/CardCampeones";
+export default {
+	components: { Nav, CardCampeones },
+};
 </script>
 
 <style></style>
